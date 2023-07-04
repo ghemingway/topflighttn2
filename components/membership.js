@@ -10,7 +10,7 @@ const Membership = () => {
       id="membership"
       className="py-32 px-3 md:px-0 bg-[#f8f9fa] text-[#212529] flex items-center justify-center relative"
       style={{
-        background: `linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../img/bg-callout.jpeg);
+        background: `linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url('/img/bg-callout.jpeg');
            background-position: center center;
            background-repeat: no-repeat;
            background-size: cover;`,

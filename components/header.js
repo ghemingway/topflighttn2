@@ -16,7 +16,7 @@ const Header = () => {
     <header
       className="w-full min-h-[40rem] md:h-screen relative flex flex-col items-center justify-center"
       style={{
-        background: `linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../img/bg-masthead.jpeg);
+        background: `linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url('/img/bg-masthead.jpeg');
            background-position: center center;
            background-repeat: no-repeat;
            background-size: cover;`,
