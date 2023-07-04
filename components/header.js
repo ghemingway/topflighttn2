@@ -14,13 +14,8 @@ import bannerImg from "../images/TopFlightLogo.png";
 const Header = () => {
   return (
     <header
-      className="w-full min-h-[40rem] md:h-screen relative flex flex-col items-center justify-center"
-      style={{
-        background: `linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url('/img/bg-masthead.jpeg');
-           background-position: center center;
-           background-repeat: no-repeat;
-           background-size: cover;`,
-      }}
+      id="header"
+      className="w-full min-h-[40rem] md:h-screen relative flex flex-col items-center justify-center  bg-center bg-cover bg-[url(/img/bg-masthead.jpeg)]"
     >
       <div className="flex flex-col items-center justify-center p-4">
         <Image

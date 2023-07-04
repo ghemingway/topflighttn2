@@ -27,7 +27,7 @@ const Portfolio = () => {
           <script
             src="https://assets.juicer.io/embed.js"
             type="text/javascript"
-            async
+            defer
           ></script>
           <link
             href="https://assets.juicer.io/embed.css"
