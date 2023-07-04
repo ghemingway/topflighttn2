@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer components {
+  .service-icon {
+    @apply  w-32 h-32 rounded-full bg-white flex flex-wrap items-center justify-center text-6xl;
+  }
+}
