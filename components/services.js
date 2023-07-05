@@ -1,7 +1,6 @@
 /*** Copyright G. Hemingway @2022-2023 ***/
 "use strict";
 
-import Link from "next/link";
 import { GiCommercialAirplane } from "react-icons/gi";
 import { SlMustache } from "react-icons/sl";
 import { IoRibbonOutline } from "react-icons/io5";
@@ -27,6 +26,7 @@ const Services = () => {
   return (
     <section
       id="services"
+      name="services"
       className="py-32 bg-[#053254] text-white flex items-center justify-center"
     >
       <div className="max-w-3xl flex flex-col items-center justify-center">
@@ -56,9 +56,9 @@ IFR ready"
             caption="Good Exterior and Interior Condition"
           />
         </div>
-        <Link href="#membership">
-          <Button invert>Come Fly With Us</Button>
-        </Link>
+        <Button anchor="membership" invert>
+          Come Fly With Us
+        </Button>
       </div>
     </section>
   );

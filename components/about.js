@@ -1,7 +1,6 @@
 /*** Copyright G. Hemingway @2022-2023 ***/
 "use strict";
 
-import Link from "next/link";
 import Button from "@/components/button";
 
 /**
@@ -13,6 +12,7 @@ const About = () => {
   return (
     <section
       id="about"
+      name="about"
       className="py-32 px-3 md:px-0 bg-[#f8f9fa] text-[#212529] flex items-center justify-center"
     >
       <div className="max-w-[50rem] flex flex-col items-center justify-center text-center">
@@ -24,9 +24,7 @@ const About = () => {
           fleet, minus all the exorbitant costs and upkeep. This means we keep a
           low member-to-plane ratio with best-in-class equipment.
         </p>
-        <Link href="#services">
-          <Button>What We Offer</Button>
-        </Link>
+        <Button anchor="services">What We Offer</Button>
       </div>
     </section>
   );

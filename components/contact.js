@@ -1,7 +1,6 @@
 /*** Copyright G. Hemingway @2022-2023 ***/
 "use strict";
 
-import Link from "next/link";
 import Button from "@/components/button";
 
 /**
@@ -21,9 +20,9 @@ const Contact = () => {
           Interested in joining us? Please contact at{" "}
           <mailto>flying@topflighttn.com</mailto>.
         </p>
-        <Link href="https://m.me/topflighttn">
-          <Button invert>Message us on Facebook</Button>
-        </Link>
+        <Button anchor="https://m.me/topflighttn" invert>
+          Message us on Facebook
+        </Button>
       </div>
     </section>
   );

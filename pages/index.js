@@ -11,7 +11,7 @@ import Contact from "@/components/contact";
 import Portfolio from "@/components/portfolio";
 import Chart from "@/components/chart";
 import Footer from "@/components/footer";
-
+import Scroller from "@/components/scroller";
 
 export default function Home() {
   return (
@@ -24,6 +24,7 @@ export default function Home() {
       <Contact />
       <Chart />
       <Footer />
+      <Scroller />
     </>
   );
 }

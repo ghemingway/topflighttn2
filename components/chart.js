@@ -17,6 +17,7 @@ const Chart = () => {
           src={chartImg}
           alt="TopFlight Aviation Banner"
           style={imageStyle}
+          priority={false}
         ></Image>
       </a>
     </section>
