@@ -30,6 +30,7 @@ const Button = ({ children, anchor = "", invert = false, ...props }) => {
       <button
         className={`transition ease-in-out delay-150 rounded-sm ${shadow} cursor-pointer flex justify-center px-10 py-6 font-bold ${colors} ${bgHover}`}
         onClick={handleClick}
+        onTouchEnd={handleClick}
         {...props}
       >
         {children}
