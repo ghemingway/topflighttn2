@@ -22,6 +22,11 @@ const Badge = ({ icon, tag, caption }) => {
 
 const iconStyle = { stroke: "#053254", fill: "#053254" };
 
+/**
+ *
+ * @returns {JSX.Element}
+ * @constructor
+ */
 const Services = () => {
   return (
     <section
@@ -56,8 +61,8 @@ IFR ready"
             caption="Good Exterior and Interior Condition"
           />
         </div>
-        <Button anchor="membership" invert>
-          Come Fly With Us
+        <Button anchor="fleet" invert>
+          What Are We Flying
         </Button>
       </div>
     </section>

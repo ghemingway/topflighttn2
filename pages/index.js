@@ -12,6 +12,8 @@ import Portfolio from "@/components/portfolio";
 import Chart from "@/components/chart";
 import Footer from "@/components/footer";
 import Scroller from "@/components/scroller";
+import Fleet from "@/components/fleet";
+import Structure from "@/components/structure";
 
 export default function Home() {
   return (
@@ -19,7 +21,9 @@ export default function Home() {
       <Header />
       <About />
       <Services />
+      <Fleet />
       <Membership />
+      <Structure />
       <Portfolio />
       <Contact />
       <Chart />

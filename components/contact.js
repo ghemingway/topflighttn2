@@ -2,6 +2,7 @@
 "use strict";
 
 import Button from "@/components/button";
+import Link from "next/link";
 
 /**
  *
@@ -18,7 +19,9 @@ const Contact = () => {
         <h2 className="text-[1.875rem] font-bold pb-2">Contact Us!</h2>
         <p className="font-thin text-xl pb-12">
           Interested in joining us? Please contact at{" "}
-          <mailto>flying@topflighttn.com</mailto>.
+          <Link href="mailto:flying@topflighttn.com" className="underline">
+            flying@topflighttn.com
+          </Link>
         </p>
         <Button anchor="https://m.me/topflighttn" invert>
           Message us on Facebook

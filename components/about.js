@@ -12,7 +12,6 @@ const About = () => {
   return (
     <section
       id="about"
-      name="about"
       className="py-32 px-3 md:px-0 bg-[#f8f9fa] text-[#212529] flex items-center justify-center"
     >
       <div className="max-w-[50rem] flex flex-col items-center justify-center text-center">
