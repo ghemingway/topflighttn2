@@ -1,3 +1,5 @@
+/*** Copyright G. Hemingway @2022-2023 ***/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -28,6 +30,6 @@ body {
 
 @layer components {
   .service-icon {
-    @apply  w-32 h-32 rounded-full bg-white flex flex-wrap items-center justify-center text-6xl;
+    @apply w-32 h-32 rounded-full bg-white flex flex-wrap items-center justify-center text-6xl;
   }
 }

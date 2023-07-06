@@ -13,14 +13,16 @@ const Portfolio = () => {
     <section
       id="portfolio"
       name="portfolio"
-      className="py-32 bg-[#f8f9fa] text-[#212529] flex flex-col items-center justify-center"
+      className="py-32 bg-[#053254] text-white flex flex-col items-center justify-center"
     >
       <div className="max-w-[50rem] flex flex-col items-center justify-center text-center">
         <h2 className="text-[1.875rem] font-bold pb-2">
           {/* eslint-disable-next-line react/no-unescaped-entities */}
-          What we're up to
+          What We're Up To
         </h2>
-        <Button anchor="contact">Get in Touch</Button>
+        <Button invert anchor="contact">
+          Get in Touch
+        </Button>
         <div className="mt-8">
           <script
             src="https://assets.juicer.io/embed.js"

@@ -16,7 +16,7 @@ const Structure = () => {
     >
       <div className="max-w-3xl flex flex-col items-center justify-center">
         <h2 className="font-bold text-5xl mb-3 text-center">
-          Membership & financial structure
+          Membership & Financial Structure
         </h2>
         <div className="px-2 sm:px-0 w-full flex flex-col py-10 flex-wrap justify-center">
           <div>Club Structure: Non-Profit TN Corporation, Equity Club</div>
@@ -45,9 +45,8 @@ const Structure = () => {
           or unplanned expenses that arise. Airplane dry rates are also subject
           to change over time to optimize club financials.
         </div>
-        <Button invert anchor="portfolio">
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
-          What We're Up To
+        <Button invert anchor="other">
+          One Last Thing...
         </Button>
       </div>
     </section>

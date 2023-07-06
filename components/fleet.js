@@ -40,7 +40,7 @@ const Fleet = () => {
       className="py-16 bg-[#f8f9fa] text-[#212529] flex items-center justify-center"
     >
       <div className="w-full flex flex-col items-center justify-center">
-        <h2 className="font-bold text-5xl mb-2 text-center">Club aircraft</h2>
+        <h2 className="font-bold text-5xl mb-2 text-center">Club Aircraft</h2>
         <div className="w-full sm:w-3/4 px-4 flex flex-col py-10 flex-wrap justify-center items-center gap-2">
           <Plane tag="N422RJ" model="2013 Cirrus SR22">
             <ul className="list-disc px-4 py-2">

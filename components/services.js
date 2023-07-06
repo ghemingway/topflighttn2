@@ -31,12 +31,11 @@ const Services = () => {
   return (
     <section
       id="services"
-      name="services"
       className="py-32 bg-[#053254] text-white flex items-center justify-center"
     >
       <div className="max-w-3xl flex flex-col items-center justify-center">
         <h2 className="font-bold text-5xl mb-5 text-center">
-          How do we define a great plane?
+          How Do We Define a Great Plane?
         </h2>
         <div className="flex py-10 flex-wrap justify-center">
           <Badge

@@ -11,7 +11,7 @@ const Membership = () => {
     >
       <div className="max-w-[50rem] flex flex-col items-center justify-center text-center">
         <h2 className="text-[1.875rem] font-bold pb-2">
-          What club membership is all about
+          What Club Membership is All About
         </h2>
         <p className="font-thin text-xl pb-12">
           TopFlight Aviation is also a social club. It provides an opportunity,

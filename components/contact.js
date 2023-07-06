@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-32 bg-[#053254] text-white flex items-center justify-center"
+      className="py-32 bg-[#f8f9fa] text-[#212529] flex items-center justify-center"
     >
       <div className="max-w-[50rem] flex flex-col items-center justify-center text-center">
         <h2 className="text-[1.875rem] font-bold pb-2">Contact Us!</h2>
@@ -23,7 +23,7 @@ const Contact = () => {
             flying@topflighttn.com
           </Link>
         </p>
-        <Button anchor="https://m.me/topflighttn" invert>
+        <Button anchor="https://m.me/topflighttn">
           Message us on Facebook
         </Button>
       </div>
