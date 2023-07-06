@@ -41,7 +41,7 @@ const Fleet = () => {
     >
       <div className="w-full flex flex-col items-center justify-center">
         <h2 className="font-bold text-5xl mb-2 text-center">Club aircraft</h2>
-        <div className="w-full px-4 flex flex-col py-10 flex-wrap justify-center items-center gap-2">
+        <div className="w-full sm:w-3/4 px-4 flex flex-col py-10 flex-wrap justify-center items-center gap-2">
           <Plane tag="N422RJ" model="2013 Cirrus SR22">
             <ul className="list-disc px-4 py-2">
               <Feature>Garmin 12” Perspective Glass Cockpit</Feature>
