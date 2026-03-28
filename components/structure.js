@@ -33,8 +33,8 @@ const Structure = () => {
           <div className="py-2">
             <h2 className="font-bold text-lg">Current Fleet Hourly Rates</h2>
             <ul className="list-disc pl-12">
-              <li>4 Seater: N262BC 2010 Cirrus SR20 G3 - Dry Rate $125</li>
-              <li>5 Seater: N422RJ 2013 Cirrus SR22 G5 - Dry Rate $160</li>
+              <li>4 Seater: N262BC 2010 Cirrus SR20 G3 - Dry Rate $135</li>
+              <li>5 Seater: N422RJ 2013 Cirrus SR22 G5 - Dry Rate $175</li>
             </ul>
           </div>
         </div>
