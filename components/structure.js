@@ -27,7 +27,7 @@ const Structure = () => {
             <ul className="list-disc pl-12">
               <li>Initiation Fee: $2,000</li>
               <li>Member Equity Buy-in: $15,000*</li>
-              <li>Monthly Dues: $450*</li>
+              <li>Monthly Dues: $475*</li>
             </ul>
           </div>
           <div className="py-2">
