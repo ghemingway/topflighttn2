@@ -1,4 +1,4 @@
-/*** Copyright G. Hemingway @2022-2023 ***/
+/*** Copyright G. Hemingway @2022-2026 ***/
 "use strict";
 
 import Button from "@/components/button";
