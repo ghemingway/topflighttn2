@@ -35,7 +35,7 @@ const Structure = () => {
             <ul className="list-disc pl-12">
               <li>4 Seater: N262BC 2010 Cirrus SR20 G3 - Dry Rate $135</li>
               <li>5 Seater: N422RJ 2013 Cirrus SR22 G5 - Dry Rate $195</li>
-              <li>5 Seater: N718CL 2019 Cirrus SR22 G6 - Dry Rate $220</li> 2013 Cirrus SR22 G5 - Dry Rate $195</li>
+              <li>5 Seater: N718CL 2019 Cirrus SR22 G6 - Dry Rate $220</li>
             </ul>
           </div>
         </div>
