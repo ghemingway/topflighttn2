@@ -26,15 +26,16 @@ const Structure = () => {
             <h2 className="font-bold text-lg">Financials</h2>
             <ul className="list-disc pl-12">
               <li>Initiation Fee: $2,000</li>
-              <li>Member Equity Buy-in: $15,000*</li>
-              <li>Monthly Dues: $475*</li>
+              <li>Member Equity Buy-in: $22,000*</li>
+              <li>Monthly Dues: $725*</li>
             </ul>
           </div>
           <div className="py-2">
             <h2 className="font-bold text-lg">Current Fleet Hourly Rates</h2>
             <ul className="list-disc pl-12">
               <li>4 Seater: N262BC 2010 Cirrus SR20 G3 - Dry Rate $135</li>
-              <li>5 Seater: N422RJ 2013 Cirrus SR22 G5 - Dry Rate $175</li>
+              <li>5 Seater: N422RJ 2013 Cirrus SR22 G5 - Dry Rate $195</li>
+              <li>5 Seater: N718CL 2019 Cirrus SR22 G6 - Dry Rate $220</li> 2013 Cirrus SR22 G5 - Dry Rate $195</li>
             </ul>
           </div>
         </div>
