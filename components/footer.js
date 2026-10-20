@@ -1,4 +1,4 @@
-/*** Copyright G. Hemingway @2022-2023 ***/
+/*** Copyright G. Hemingway @2022-2026 ***/
 "use strict";
 
 import { FiFacebook } from "react-icons/fi";
@@ -27,7 +27,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="text-black/30 font-thin">
-        Copyright © Top Flight Aviation 2023
+        Copyright © Top Flight Aviation 2026
       </div>
     </section>
   );
